@@ -46,7 +46,7 @@
     "express-session": "^1.15.6",
     "express-validator": "^4.3.0",
     "fbgraph": "^1.4.1",
-    "graphql": "^14.0.2",
+    "graphql": "^14.7.0",
     "graphql-date": "^1.0.3",
     "graphql-tools": "^4.0.3",
     "graphql-type-json": "^0.2.1",
