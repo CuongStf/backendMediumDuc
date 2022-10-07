@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2022-10-07T23:37:01.922Z'
+    - fbgraph > request > extend:
+        patched: '2022-10-07T23:37:01.922Z'
+  'npm:hoek:20180212':
+    - request > hawk > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+    - request > hawk > boom > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+    - request > hawk > sntp > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+    - fbgraph > request > hawk > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+    - fbgraph > request > hawk > boom > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+    - request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+    - fbgraph > request > hawk > sntp > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+    - fbgraph > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T23:37:01.922Z'
+  SNYK-JS-LODASH-567746:
+    - http-proxy-middleware > lodash:
+        patched: '2022-10-07T23:37:01.922Z'
+    - mongoose > async > lodash:
+        patched: '2022-10-07T23:37:01.922Z'
+    - async > lodash:
+        patched: '2022-10-07T23:37:01.922Z'
+    - express-validator > lodash:
+        patched: '2022-10-07T23:37:01.922Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2022-10-07T23:37:01.922Z'
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2022-10-07T23:37:01.922Z'
+    - fbgraph > request > stringstream:
+        patched: '2022-10-07T23:37:01.922Z'
+  'npm:uglify-js:20151024':
+    - swig > uglify-js:
+        patched: '2022-10-07T23:37:01.922Z'
