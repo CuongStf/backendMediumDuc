@@ -54,7 +54,7 @@
     "jsonwebtoken": "^8.4.0",
     "lodash": "^4.17.11",
     "lusca": "^1.5.2",
-    "mongoose": "^5.3.12",
+    "mongoose": "^6.13.6",
     "multiparty": "^4.2.1",
     "nodemailer": "^4.4.1",
     "nodemon": "^1.18.4",
